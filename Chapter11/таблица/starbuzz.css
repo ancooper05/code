@@ -12,6 +12,16 @@
 	height: 108px;
 }
 
+#headerSlogan {
+	float: right;
+}
+
+#award {
+	position: absolute;
+	top: 30px;
+	left: 365px;
+}
+
 #drinks {
 	display: table-cell;
 	background: #efe5d0 url(images/background.gif) top left;
@@ -19,7 +29,15 @@
 	padding: 15px;
 	vertical-align: top;
 }
+#coupon a, img {
+	border: none;
+}
 
+#coupon {
+	position: fixed;
+	top: 700px;
+	left: -90px;
+}
 #main {
 	display: table-cell;
 	background: #efe5d0 url(images/background.gif) top left;
@@ -80,4 +98,23 @@ div#tableContainer {
 div#tableRow {
 	display: table-row;
 }
+#freecoffee { 
+	padding: 100px 10px 10px 100px;
+	margin: 40px;
+	width: 400px;
+}
+#back a {
+	border: none;
+	text-decoration: none;
 
+	background-color: #efe5d0;
+	font-size: 150%;
+	padding: 5px;
+	border: #675c47 dashed 3px;
+	border-radius: 15px;
+	width: 300px;
+	margin: 25px;
+	text-align: center;
+	position: absolute;
+	left: 30px;
+}
