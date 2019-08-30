@@ -5,7 +5,7 @@
         <title>Заказ кофе</title>
     </head>
 <body>
-    <form action="" method="GET">
+    <form action="" method="POST">
         <p>Выберите кофе:
             <select name="coffee">
                 <option value="Домашняя">Домашняя смесь</option>
@@ -15,9 +15,18 @@
             </select>
         </p>
         
-        <p>Тип:
-            <input type="radio" name="beanorground" value="Кофе в зернах"><br>
-            <input type="radio" name="beanorground" value="Молотый"><br>
+        <p>Тип: <br>
+            <input type="radio" name="beanorground" value="Кофе в зернах">Кофе в зернах<br>
+            <input type="radio" name="beanorground" value="Молотый">Молотый
+        </p>
+        <p>Дополнительная услуги: <br>
+            <input type="checkbox" name="services" value="Подарочная упаковка">Подарочная упаковка <br>
+            <input type="checkbox" name="services" value="Доставка каталога вместе с заказом">Доставка каталога вместе с заказом
+        </p>
+        <p>Доставить по адресу<br>
+           Имя: <input type="text" name="name"><br>
+           Адрес: <input type="text" name="adress"
+            
         </p>
     </form>
 </body></html>
