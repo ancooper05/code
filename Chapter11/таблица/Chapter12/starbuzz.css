@@ -83,7 +83,7 @@ footer {
 	font-size: 90%;
 }
 
-h1 {
+h1,h2 {
 	font-size: 120%;
 	color: #954b4b;
 }
@@ -136,3 +136,7 @@ div#tableRow {
 	position: absolute;
 	left: 30px;
 }
+
+h1+p {
+    font-style: italic;
+    }
