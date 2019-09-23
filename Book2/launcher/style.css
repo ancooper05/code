@@ -13,6 +13,8 @@ body {
   }
   
   .first {
+    margin: 0px;
+    padding: 0px;
     height: 300px;
     flex-grow: 3;
   }
@@ -23,16 +25,23 @@ body {
   }
 
 
+ th {
+    width: 120px;
+    text-align: left;
+    font-size: 500%;
+    font-weight: bold;
+    color: black;
+ }
 
- h1 {
-     font-size: 500%;
-     color: black;
-     padding: 30px 10px 0px 10px;
+ td {
+   width: 120px;
+   text-align: left;
  }
 
  h2 {
     font-size: 200%;
     color: black;
+    font-weight: bold;
  }
 
 
@@ -40,3 +49,47 @@ body {
     display: inline; 
 	padding: 30px 10px 10px 10px;
 } 
+
+#about {
+padding-right: 400px;
+padding-bottom: 50px;
+width: 400px; 
+}
+
+#form {
+padding-bottom: 350px;
+}
+
+input {
+  font-size: 110%;
+  border: 0px;
+  padding: 25px;
+}
+
+#email {
+  width: 270px;
+  background-color: #E0F1F5;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 30px;
+}
+
+#send {
+color: white;
+background-color: #969696;
+margin-left: -60px;
+border-top-left-radius: 0px;
+border-top-right-radius: 30px;
+border-bottom-right-radius: 30px;
+border-bottom-left-radius: 0px;
+}
+
+#social {
+  padding: 0px;
+  margin: 0px;
+}
+
+img {
+  size: 100%;
+}
